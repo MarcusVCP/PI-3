@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3df637a2f2.js" crossorigin="anonymous"></script>
+    <title>Canal da Pizza</title>
+</head>
+<body>
+    <header>
+            <div class="content">
+                <div class="logo">
+                    <img src="./img/pngtree-cartoon-yellow-pizza-illustration-png-image_4634672-removebg-preview.png" alt="Cupcake">
+                    <h3>CanaldaPizza</h3>
+                </div>
+                <ul class="list-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobrenos">Sobre nós</a></li>
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                    <li><a href="https://www.instagram.com/canal.da.pizza/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/CanaldaPizza/?locale=pt_BR" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="Controle.html" target="_blank"><i class="fas fa-shopping-cart"></i></a></li>
+
+                </ul>
+
+                <div class="menu-toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+
+            </div>
+        
+    </header>
+
+    <section class="first-section" id="home">
+        
+        <div class="conteudo-principal">
+            <h1>Deixe seu dia mais saboroso!!!</h1>
+            <h2>As pizzas mais recheadas do Cecap</h2>
+        </div>    
+    </section>    
+
+    <section class="sobre-nos" id="sobrenos"> 
+        <div class="main">
+            <div class="contentsobre">
+                <h2>Sobre nós</h2>
+                <p>Temos a pizza mais recheada do Cecap!! Fazemos pizzas desde 2010 com o maior carinho e a melhor qualidade possivel para melhor atenter nossos clientes. Venha provar nossas deliciosas Pizzas!!</p>
+            </div>     
+            <div class="img-cozinha">
+                <img src="./img/4.jpg" alt="">
+            </div>
+        </div>    
+    </section>
+
+    <section class="cardapio" id="cardapio">
+        <h2>Cardápio</h2>
+
+            <div class="itens-cardapio">
+                <div class="frango">
+                    <img src="./img/frango-removebg-preview.png" alt="Pizza de Frango">
+                    <div class="info">
+                        <h3>Frango</h3>
+                        <h4>Grande <span>R$50,00</span></h4>
+                        <button onclick="comprarfrango()" class="pedir">pedir agora</button>
+                    </div>   
+                </div>
+                <div class="calabresa">
+                    <img src="./img/calabresa-removebg-preview.png" alt="Pizza de Calabresa">
+                    <div class="info">
+                        <h3>Calabresa</h3>
+                        <h4>Grande <span>R$50,00</span></h4>
+                        <button onclick="comprarcalabresa()" class="pedir">pedir agora</button>
+                    </div> 
+                
+                </div>
+                <div class="portuguesa">
+                    <img src="./img/portuguesa-removebg-preview.png" alt="Pizza de Portuguesa">
+                    <div class="info">
+                        <h3>Portuguesa</h3>
+                        <h4>Grande <span>R$50,00</span></h4>
+                        <button onclick="comprarportuguesa()" class="pedir">pedir agora</button>
+                    </div> 
+                
+                </div>
+                <div class="strogonoff">
+                    <img src="./img/strogonoff-removebg-preview.png" alt="Pizza de Strogonoff">
+                    <div class="info">
+                        <h3>Strogonoff</h3>
+                        <h4>Grande <span>R$50,00</span></h4>
+                        <button onclick="comprarstrogonoff()" class="pedir">pedir agora</button>
+                    </div> 
+                
+                </div>
+                <div class="ChocolatePreto">
+                    <img src="./img/chocolate-removebg-preview.png" alt="Pizza de Chocolate">
+                    <div class="info">
+                        <h3>Chocolate Preto</h3>
+                        <h4>Grande <span>R$60,00</span></h4>
+                        <button onclick="comprarchocolate()" class="pedir">pedir agora</button>
+                    </div> 
+                
+                </div>
+                <div class="sensacao">
+                    <img src="./img/sensacao-removebg-preview.png" alt="Pizza de Sensação">
+                    <div class="info">
+                        <h3>Sensação</h3>
+                        <h4>Grande <span>R$60,00</span></h4>
+                        <button onclick="comprarsensacao()" class="pedir">pedir agora</button>
+                    </div> 
+                
+                </div>
+                <div class="confete">
+                    <img src="./img/confete-removebg-preview.png" alt="Pizza de Confete">
+                    <div class="info">
+                        <h3>Confete</h3>
+                        <h4>Grande <span>R$60,00</span></h4>
+                        <button onclick="comprarconfete()" class="pedir">pedir agora</button>
+                    </div> 
+                
+                </div>
+                <div class="prestigio">
+                    <img src="./img/prestigio-removebg-preview.png" alt="Pizza de Prestigio">
+                    <div class="info">
+                        <h3>Prestigio</h3>
+                        <h4>Grande <span>R$60,00</span></h4>
+                        <button onclick="comprarprestigio()" class="pedir">pedir agora</button>
+                    </div> 
+                
+                </div>
+                
+            </div>
+
+    </section>
+
+    <section class="contatos" id="contatos">
+        <h3>Contatos</h3>
+        <div class="contatos-secao">
+            <div>
+                <i class="fas fa-phone"></i>
+                <span><a class="links" href="https://wa.me//5512997641470?text=Olá, quero fazer um pedido" target="_blank">(12) 99364-7870</a></span>
+            </div>
+            <div>
+                <i class="fab fa-instagram"></i>
+                <span><a class="links" href="https://www.instagram.com/canal.da.pizza/" target="_blank">@canal_pizza_cecap</a></span>
+            </div>
+            <div>
+                <i class="fab fa-facebook-f"></i>
+                <span><a class="links" href="https://www.facebook.com/CanaldaPizza/?locale=pt_BR" target="_blank">Canal da Pizza Cecap</a></span>
+            </div>
+        </div>
+    </section>
+   
+
+    <script src="./script.js"></script>
+</body>
+</html>
